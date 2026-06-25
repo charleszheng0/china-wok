@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>China Wok</title>
+  <meta name="description" content="China Wok — Chinese-American cooking in Chapel Hill, NC. Made from scratch, hot and ready. Simple, good food, made to share." />
+
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:title" content="China Wok — Chapel Hill, NC" />
+  <meta property="og:description" content="Home-style Chinese-American cooking, made from scratch, hot and ready." />
+
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+  <!-- Fonts: Libre Baskerville (headings) + Plus Jakarta Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet" />
+
+  <!-- Tabler Icons (outline) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.31.0/dist/tabler-icons.min.css" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "China Wok",
+    "servesCuisine": ["Chinese", "Chinese-American"],
+    "telephone": "+1-919-942-6388",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1129 Weaver Dairy Rd #D",
+      "addressLocality": "Chapel Hill",
+      "addressRegion": "NC",
+      "postalCode": "27514",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "11:00", "closes": "21:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "11:00", "closes": "22:30" }
+    ]
+  }
+  </script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#menu">Skip to menu</a>
+
+  <!-- ===================== STICKY NAV ===================== -->
+  <header class="nav" data-nav>
+    <div class="container nav-inner">
+      <a class="nav-logo" href="#top">
+        <span class="nav-logo-name">China Wok</span>
+        <span class="nav-logo-locale">Chapel Hill, NC</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#menu" data-navlink>Menu</a>
+        <a href="#" data-order-link data-navlink>Order</a>
+        <a href="#about" data-navlink>About</a>
+        <a href="#find" data-navlink>Find us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== 1. HERO ===================== -->
+    <section class="hero">
+      <div class="hero-bg" data-img-slot="hero" role="img" aria-label="Steaming bowl of wok-fired noodles"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-card">
+        <h1 class="hero-title">China Wok</h1>
+        <p class="hero-address">
+          <span data-address>1129 Weaver Dairy Rd #D, Chapel Hill, NC 27514</span>
+          <a class="hero-phone" data-tel data-phone-text href="tel:+19199426388">(919) 942-6388</a>
+        </p>
+        <p class="hero-body">Handcrafted simple Chinese cooking.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-red" href="#menu">View Menu</a>
+          <a class="btn btn-red" data-order-link href="#">Order Online</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. ABOUT ===================== -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="eyebrow eyebrow-red">Our story</p>
+          <span class="heading-wrap">
+            <h2 class="h-about">Home-style cooking, the way it should be.</h2>
+            <span class="divider-line heading-rule"></span>
+          </span>
+          <p class="body-text">
+            We've been feeding Chapel Hill since 2014 by serving simple, good food. Serving the community honest Chinese food with the same recipes.
+          </p>
+          <p class="body-text">
+            Come as you are, bring someone you like, and order something to share.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 4. WEEKLY SHOWCASE ===================== -->
+    <section class="section showcase" id="picks">
+      <div class="container">
+        <div class="section-head">
+          <span class="heading-wrap">
+            <h2 class="h-showcase">House favorites</h2>
+            <span class="divider-line heading-rule"></span>
+          </span>
+        </div>
+        <div class="carousel">
+          <button class="carousel-arrow carousel-prev" type="button" data-carousel-prev aria-label="Previous dishes">
+            <i class="ti ti-chevron-left" aria-hidden="true"></i>
+          </button>
+          <div class="dish-grid" data-showcase></div>
+          <button class="carousel-arrow carousel-next" type="button" data-carousel-next aria-label="More dishes">
+            <i class="ti ti-chevron-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 5. FULL MENU ===================== -->
+    <section class="section menu" id="menu">
+      <div class="container">
+        <div class="section-head">
+          <span class="heading-wrap">
+            <h2 class="h-menu">The menu</h2>
+            <span class="divider-line heading-rule"></span>
+          </span>
+          <p class="body-text"></p>
+        </div>
+        <div class="filter-pills" data-filters role="tablist" aria-label="Menu categories"></div>
+        <div class="menu-rows" data-menu-rows></div>
+        <div class="menu-foot">
+          <button class="btn btn-red btn-small" type="button" data-menu-more>see full menu</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== REVIEWS ===================== -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <div class="section-head">
+          <span class="heading-wrap">
+            <h2 class="h-reviews">From the community</h2>
+            <span class="divider-line heading-rule"></span>
+          </span>
+        </div>
+        <div class="review-grid">
+          <figure class="review-card">
+            <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
+            <blockquote class="review-quote">Everything just tastes so much better than other places.</blockquote>
+            <figcaption class="review-author">A.B.</figcaption>
+          </figure>
+          <figure class="review-card">
+            <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
+            <blockquote class="review-quote">You can really tell this place takes pride in what they do, and that’s rare to find these days...they consistently deliver amazing food and an incredible experience. Easily the best Chinese takeout around, and I’ll keep recommending them to everyone I know.</blockquote>
+            <figcaption class="review-author">A.F.</figcaption>
+          </figure>
+          <figure class="review-card">
+            <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
+            <blockquote class="review-quote">Found ourselves over here a few times one week, and wound up going to China wok for lunch each time. Very nice staff working and the vegetarian meals were great - tofu with vegetables and the eggplant. Higher quality vegetables, tasty and quick.</blockquote>
+            <figcaption class="review-author">A.P.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 8. HOURS & LOCATION ===================== -->
+    <section class="section find" id="find">
+      <div class="container find-grid">
+        <div class="find-col">
+          <span class="heading-wrap">
+            <h2 class="h-find">Find us</h2>
+            <span class="divider-line heading-rule"></span>
+          </span>
+          <div class="map-frame">
+            <iframe
+              data-map
+              title="Map to China Wok, Chapel Hill, NC"
+              src="https://www.google.com/maps?q=1129+Weaver+Dairy+Rd+%23D,+Chapel+Hill,+NC+27514&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <p class="find-address" data-address>1129 Weaver Dairy Rd #D, Chapel Hill, NC 27514</p>
+          <p class="find-phone"><a data-tel data-phone-text href="tel:+19199426388">(919) 942-6388</a></p>
+        </div>
+        <div class="find-col">
+          <span class="heading-wrap">
+            <h2 class="h-find">Hours</h2>
+            <span class="divider-line heading-rule"></span>
+          </span>
+          <table class="hours" data-hours><tbody></tbody></table>
+          <p class="find-note">Call ahead for large orders and catering.</p>
+          <a class="btn btn-red" data-order-link href="#">Order now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== 9. FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">China Wok</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#menu">Menu</a>
+        <a href="#" data-order-link>Order</a>
+        <a href="#about">About</a>
+        <a href="#find">Find us</a>
+        <a data-social="instagram" href="#" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+      <p class="footer-tag">© <span data-year>2026</span> China Wok. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

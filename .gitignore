@@ -1,0 +1,11 @@
+# Secrets — never commit your Unsplash key
+.env
+.env.local
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
+
+# Node (only used by the optional image-fetch script)
+node_modules/

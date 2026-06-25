@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="30" fill="#C1392B"/>
+  <g fill="#141414">
+    <!-- flames rising out of the wok -->
+    <path d="M34 58
+             C29 49 35 45 33 39
+             C38 41 39 38 38 34
+             C42 37 43 34 43 30
+             C45 35 47 34 48 31
+             C47 22 50 16 52 12
+             C53 18 56 22 55 28
+             C58 26 60 28 59 33
+             C63 32 65 36 63 41
+             C68 44 67 52 62 56
+             C54 60 42 60 34 58 z"/>
+    <!-- handle -->
+    <path d="M70 62 l22 -13 4 6 -22 13 z"/>
+    <!-- wok bowl -->
+    <ellipse cx="46" cy="60" rx="33" ry="8"/>
+    <path d="M15 60 C20 86 72 86 77 60 Z"/>
+    <!-- foot -->
+    <rect x="40" y="82" width="12" height="5" rx="2"/>
+  </g>
+  <!-- food bits / splatter punched out in the site red -->
+  <g fill="#C1392B">
+    <circle cx="46" cy="47" r="2.3"/>
+    <circle cx="53" cy="42" r="1.7"/>
+    <circle cx="43" cy="40" r="1.5"/>
+    <circle cx="50" cy="35" r="1.4"/>
+    <circle cx="45" cy="52" r="1.5"/>
+    <circle cx="53" cy="50" r="1.4"/>
+  </g>
+</svg>
