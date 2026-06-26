@@ -30,7 +30,7 @@ function localDay(tz) {
 
 /* ---------- hero image slideshow ---------- */
 // Rotating background photos for the hero. Swap these paths to change them.
-const HERO_IMAGES = ["assets/img/hero-1.jpg", "assets/img/hero-2.jpg"];
+const HERO_IMAGES = ["assets/img/hero-1.jpg", "assets/img/hero-2.jpg", "assets/img/DJI_20260626053229_0229_D.jpg"];
 const HERO_INTERVAL = 6000; // ms between photos
 
 function applyHeroImage() {
